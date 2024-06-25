@@ -185,7 +185,7 @@ body {
       margin-left: 0;
   }
 
-  .advertisement, .tags, .follow-me, .form-section {
+  .advertisement, .tags, .follow-me, .categories {
       width: 100%;
       max-width: 100%;
 
@@ -211,7 +211,7 @@ body {
       margin-left: 0.75rem;
   }
 
-  .advertisement, .tags, .follow-me, .form-section {
+  .advertisement, .tags, .follow-me, .categories {
       width: 100%;
   }
 }
