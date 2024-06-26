@@ -6,7 +6,7 @@
 
 @media (max-width: 768px) {
   header {
-    padding: 0px 5%;
+    padding: 0px 7% 0px 0px;
   }
 
   header .btn {

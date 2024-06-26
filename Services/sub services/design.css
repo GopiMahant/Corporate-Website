@@ -95,7 +95,6 @@ body {
 
 .content {
     max-width: 1200px;
-    margin: 0 auto;
     padding: 20px;
 }
 
@@ -105,16 +104,14 @@ h1, p {
 
 .responsive-image {
     display: block;
-    margin: 40px auto 0 auto; /* 40px top margin, auto left and right, 0 bottom */
-    width: 90%; /* Reduced width to give less space on the sides */
-    max-height: 50vh; /* Set maximum height to 50% of the viewport height */
-    height: auto; /* Maintains aspect ratio */
+    max-height: 50vh; 
+    height: auto;
 }
 
 @media (max-width: 600px) {
     .responsive-image {
-        width: 95%; /* Adjust for smaller screens */
-        max-height: 30vh; /* Reduced height for smaller screens */
+        width: 95%;
+        max-height: 30vh; 
     }
 }
 
@@ -178,6 +175,448 @@ header {
     cursor: pointer;
     display: none;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Required Form Start Here */
+
+  .Requirement_form_div,
+  .Requirement_form_div-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Requirement_form_div-header h2 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #666;
+  text-transform: uppercase;
+}
+
+.Requirement_form_header-line {
+  background-color: #da500c;
+  margin-top: 1.5%;
+  width: 200px;
+  height: 3px;
+}
+
+.Requirement_form_div p {
+  font-size: 1.3rem;
+  color: #666;
+  font-weight: 400;
+  margin-top: 1.2%;
+  letter-spacing: 1px;
+}
+
+/* main_requirement_form */
+
+.main_requirement_form {
+  display: flex;
+  margin-top: 3%;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+
+/* main_requirement_form and Form */
+
+.main_requirement_form form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  height: 900px;
+  box-shadow: 0 0 30px #666;
+  margin: 0px auto;
+  padding: 3%;
+}
+
+/* Form inputs and textarea */
+.main_requirement_form form input,
+select {
+  width: 100%;
+  margin-top: 25px;
+  font-size: 1.1rem;
+  padding: 1.3% 2%;
+  border: 1px solid black;
+  font-weight: 500;
+  color: black;
+  background-color: white;
+  border-radius: 7px;
+  letter-spacing: 1px;
+}
+
+#form-textarea {
+  width: 100%;
+  margin-top: 25px;
+  padding: 1.3% 2%;
+  font-size: 1.1rem;
+  border: 1px solid black;
+  font-weight: 500;
+  color: black;
+  background-color: white;
+  border-radius: 7px;
+  letter-spacing: 1px;
+}
+
+/*  main_requirement_form button */
+.main_requirement_form form button {
+  font-size: 1.5rem;
+  padding: 1.5%;
+  border-radius: 10px;
+  background-color: #da500c;
+  font-weight: 500;
+  margin-top: 30px;
+  color: white;
+  letter-spacing: 1px;
+  width: 25%;
+}
+
+
+
+/* Required Form Media quire */
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+
+  header img{
+    width: 50px;
+    height:40px;
+}
+
+header span{
+    font-size: 1rem;
+}
+.Requirement_form_header-div h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.Requirement_form_header p{
+    font-size: 1rem;
+    width: 300px;
+    margin: 0px auto ;
+}
+
+  .Requirement_form_div-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .Requirement_form_header-line {
+    margin-top: 5%;
+    width: 150px;
+  }
+
+  .Requirement_form_div p {
+    font-size: 1.1rem;
+    width: 300px;
+    margin-top: 6%;
+  }
+
+  .main_requirement_form form {
+    width: 90%;
+    height: 900px;
+    margin-top: 8%;
+  }
+
+  .main_requirement_form form input,
+  select,
+  #form-textarea {
+    padding: 3% 4%;
+    font-size: 1rem;
+    width: 70%;
+  }
+
+  .form-textarea:hover {
+    border: 1px solid #da500c;
+  }
+
+  
+
+  .main_requirement_form form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    height: 700px;
+    box-shadow: 0 0 30px #666;
+    margin: 30px auto;
+    padding: 3%;
+}
+
+.main_requirement_form form input,select,#form-textarea {
+    width: 80%;
+    margin-top: 25px;
+    font-size: 1rem;
+    padding: 1.3% 2%;
+    border: 1px solid black;
+    font-weight: 200;
+    color: black;
+    background-color: white;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+}
+
+
+.main_requirement_form form button {
+  width: 45%;
+  font-size: 1.1rem;
+}
+}
+
+
+@media only screen and (min-width: 426px) and (max-width: 600px) {
+
+
+
+
+  .Requirement_form_div-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .Requirement_form_header-line {
+    width: 175px;
+  }
+
+  .Requirement_form_div p {
+        width: 370px;
+        font-size: 1rem;
+        margin-top: 5%;
+  }
+
+
+  .main_requirement_form form {
+    width: 85%;
+    height: 800px;
+  }
+
+
+  .main_requirement_form form input, select,#form-textarea{
+    font-size: 1rem;
+        padding: 2.5% 5%;
+        width: 85%;
+  }
+
+  .main_requirement_form form button {
+    font-size: 1.2rem;
+    width: 35%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px){
+
+
+
+
+  .Requirement_form_div p{
+    width: 80%;
+    margin-top: 3%;
+  }
+  .main_requirement_form form {
+    width: 90%;
+        height: 820px;
+  }
+
+
+  .main_requirement_form form input, select,#form-textarea {
+    width: 88%;
+    font-size: 1rem;
+    padding: 1.7% 2%;
+  }
+
+  .main_requirement_form form button{
+    font-size: 1.2rem;
+        width: 25%;
+        padding: 1.2%;
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  .Requirement_form_div p {
+    width: 89%;
+    margin-top: 3%;
+  }
+
+  .main_requirement_form form{
+    width: 89%;
+    height: 865px;
+  }
+
+  .main_requirement_form form input, select,#form-textarea {
+    width: 90%;
+    font-size: 17px;
+    padding: 1.5% 3%;
+}
+
+
+.main_requirement_form form button {
+  font-size: 17px;
+        width: 20%;
+        padding: 1% 2%;
+}
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px){
+  .Requirement_form_div p{
+    width: 70%;
+  }
+
+  .main_requirement_form form {
+    width: 75%;
+        height: 950px;
+  }
+
+  .main_requirement_form form input, select,#form-textarea{
+    font-size: 17px;
+        padding: 1.8% 2%;
+        width: 90%;
+  }
+
+  .main_requirement_form form button{
+    font-size: 1.1rem;
+    width: 20%;
+    padding: 1.1% 3%;
+  }
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
   /* Footer Start */
