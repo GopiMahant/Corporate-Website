@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./Media/BG-logo.png" />
-    <title>Contact-us</title>
+    <title>Firephoenixdev-Contact-form</title>
     <!-- Main Css file -->
     <link rel="stylesheet" href="style.css" />
     <!-- Responsive Css -->
@@ -30,12 +30,12 @@
             <i class="fas fa-times close-btn"></i>
           </div>
           <div class="top">
-            <a href="/Home/index.html">Home</a>
-        <a href="/AbousUS/about.html">About</a>
-        <a href="/Services/abc.html">Services</a>
-        <a href="/Portfolio/Portfolio.html">Portfolio</a>
-        <a href="/Blog/blog1.html">Blog</a>
-        <a href="contact.html">Contact</a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
           </div>
         </nav>
         <div class="btn">
@@ -50,8 +50,7 @@
         <h2>Contact Us</h2>
         <div class="form-center-line"></div>
       </div>
-  
-  
+
       <div class="form-divs">
         <div class="form-divs-container">
           <div class="form-divs-container-box-1">
@@ -59,34 +58,47 @@
               <h2>Write Us</h2>
               <div class="form-center-line"></div>
             </div>
-    
+
             <div class="main-form">
-              <form action="">
-                <input type="text" name="name" placeholder="Your Name" id="name">
-                <input type="email" name="name" placeholder="Your Name" id="email">
-                <input type="text" name="name" placeholder="Phone Number" id="phone">
-                <textarea name="message" id="" placeholder="Message"></textarea>
-    
-                
-                  <button type="submit">Submit</button>
-                
+              <form action="https://formspree.io/f/mwpeergj"
+              method="POST">
+                <input type="text" name="text" placeholder="Full Name" />
+                <input type="email" name="email" placeholder="Your Email" />
+                <input
+                  type="phone number"
+                  name="phone"
+                  placeholder="Phone Number"
+                />
+
+                <textarea
+                  rows="4"
+                  name="message"
+                  placeholder="Message"
+                  id="form-textarea"
+                  
+
+                ></textarea>
+
+                <!-- your other form fields go here -->
+                <button type="submit">Send <i class="fa-brands fa-telegram" style="margin: 1% 2%; "></i></button>
               </form>
             </div>
           </div>
-  
-  
+
           <div class="form-divs-container-box-2">
             <div class="form-contact-info-header">
               <h2>Contact Information</h2>
               <div class="form-center-line lin-2"></div>
               <p>We're open for any suggestion or just to have a chat.</p>
             </div>
-  
+
             <div class="form-contact-info-links">
               <div class="form-contact-info-icons">
-                <i class="fa-solid fa-location-dot"></i>
-                <span style="font-size: 1rem; margin-left: 12px; font-weight: 700;">Pawar heights 1st Floor Above shree medico Opp. shewale tower
-                  bhekarai nagar Hadapsar pune</span>
+                <i class="fa-solid fa-location-dot" id="imp-icons"></i>
+                <span id="form-contact-info-icons-span"
+                  >Pawar heights 1st Floor Above shree medico Opp. shewale tower
+                  bhekarai nagar Hadapsar pune</span
+                >
               </div>
               <div class="form-contact-info-icons">
                 <i class="fa-solid fa-phone"></i>
@@ -97,45 +109,47 @@
                 <span>example@gmail.com</span>
               </div>
             </div>
-  
+
             <div class="form-contact-info-social-media-icons">
-                <h2>You Can Also Connect with us on our's social media</h2>
-  
-                <div class="form-contact-info-social-media-icons-links">
-                  <div>
-                    <i class="fa-brands fa-facebook-f"></i>
-                  </div>
-                  <div>
-                    <i class="fa-brands fa-instagram"></i>
-                   </div>
-                  <div>
-                    <i class="fa-brands fa-whatsapp"></i>
-                   </div>
-                  <div>
-                    <i class="fa-brands fa-linkedin-in"></i>
-                  </div>
-                  <div>
-                    <i class="fa-brands fa-twitter"></i>
-                  </div>
-                  <div>
-                    <i class="fa-brands fa-youtube"></i>
-                  </div>
+              <h2>You Can Also Connect with us on our's social media</h2>
+
+              <div class="form-contact-info-social-media-icons-links">
+                <div>
+                  <i class="fa-brands fa-facebook-f fa-xs"></i>
                 </div>
+                <div>
+                  <i class="fa-brands fa-instagram fa-xs"></i>
+                </div>
+                <div>
+                  <i class="fa-brands fa-whatsapp fa-xs"></i>
+                </div>
+                <div>
+                  <i class="fa-brands fa-linkedin-in fa-xs"></i>
+                </div>
+                <div>
+                  <i class="fa-brands fa-twitter fa-xs"></i>
+                </div>
+                <div>
+                  <i class="fa-brands fa-youtube fa-xs"></i>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-  
+
       <div class="form-map">
         <div class="form-map-content">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d288.60850646882585!2d73.93701326440527!3d18.53375540243273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c22a624fd5db%3A0x93d14f753a0ae2cf!2sOmkar%20Super%20Market!5e0!3m2!1sen!2sin!4v1719180159206!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d288.60850646882585!2d73.93701326440527!3d18.53375540243273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c22a624fd5db%3A0x93d14f753a0ae2cf!2sOmkar%20Super%20Market!5e0!3m2!1sen!2sin!4v1719180159206!5m2!1sen!2sin"
+            style="border: 1px solid black"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
-      </div>
-  
     </section>
-
-    
 
     <!-- Footer Section  -->
     <footer>
@@ -162,12 +176,12 @@
           <div class="second_section">
             <h3 class="footer_headings">Useful links</h3>
             <ul>
-              <li><a href="/Home/index.html">Home</a></li>
-            <li> <a href="/AbousUS/about.html">About</a></li>
-            <li><a href="/Services/abc.html">Services</a></li>
-            <li><a href="/Portfolio/Portfolio.html">Portfolio</a></li>
-            <li><a href="/Blog/blog1.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
             </ul>
           </div>
           <div class="third_section">
@@ -194,19 +208,20 @@
           <div class="fourth_section">
             <h3 class="footer_headings">Contact Us</h3>
             <form action="#">
-              <div class="form_control">
+              <div class="form_control" >
                 <input type="text" placeholder="Enter an Email" />
               </div>
               <div class="form_control">
                 <textarea
+                style="width: 208px;"
                   name=""
                   id=""
                   cols="10"
-                  rows="5"
+                  rows="4"
                   placeholder="Write Message....."
                 ></textarea>
               </div>
-              <button type="button">Send</button>
+              <button type="button" style="width: 208px;" id="footer-btn">Send</button>
             </form>
           </div>
         </div>
@@ -240,6 +255,5 @@
     </script>
 
     <!-- Form Javascript -->
-    
   </body>
 </html>
