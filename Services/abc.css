@@ -499,7 +499,7 @@ header .btn {
   .social_icons i {
     font-size: 1.5rem;
     cursor: pointer;
-    background: #ddd;
+    background: #da500c;
     width: 50px;
     height: 50px;
     display: flex;
@@ -508,7 +508,7 @@ header .btn {
     border-radius: 5px;
     transform: translateY(0);
     transition: all 0.5s ease-in-out;
-    color: #1c2833;
+    color: white;
   }
   
   .social_icons i:hover {
@@ -536,15 +536,20 @@ header .btn {
   .third_section ul li {
     margin: 1rem 0;
     display: flex;
+    font-size: 15px;
+    line-height: 20px;
   }
-  
+
+  #imp-li{
+  padding: 6%;
+}
+
   .third_section ul li:first-child {
     margin-top: 0px;
   }
   
   .third_section ul li i {
     margin-right: 15px;
-    background: #ddd;
     border-radius: 5px;
     font-size: 1.5rem;
     padding: 1rem;
